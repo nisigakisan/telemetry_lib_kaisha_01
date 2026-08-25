@@ -1,0 +1,17 @@
+＝＝値の型一覧ここから＝＝
+ErrorInfo
+StarInfo
+Sas
+I2c
+AdData
+GpsIndex
+Status
+float
+str
+Ads7830Pop
+int
+I2cTmp
+ReceiverStatus
+list
+NoneType
+＝＝値の型一覧ここまで＝＝

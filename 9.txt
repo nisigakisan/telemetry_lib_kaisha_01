@@ -1,0 +1,743 @@
+core.djm, Djm, djm_id, int, 1
+core.djm, Djm, systime, str, 1
+core.djm, Djm, log_size, int, 1
+core.djm, Djm, hk_djm_id, int, 1
+core.djm, Djm, string_v, float, 8
+core.djm, Djm, pulse_status, int, 4
+core.djm, Djm, sap_panel_v, float, 1
+core.djm, Djm, sap_panel_i, float, 1
+core.djm, Djm, i2c_sas_power, float, 1
+core.djm, Djm, tmp, float, 1
+core.djm, Djm, ads1115_temp, float, 10
+core.djm, Djm, i2c_current, I2c, 1
+core.djm, Djm, i2c_voltage, I2c, 1
+core.djm, Djm, over_current_info, I2c, 1
+core.djm, Djm, sas1, Sas, 1
+core.djm, Djm, sas2, Sas, 1
+core.djm, Djm, time_stamp, str, 1
+core.djm, Djm, djm_version, str, 1
+core.djm, Djm, build_time, str, 1
+core.djm, Djm, build_date, str, 1
+core.djm, Djm, terminal_log, str, 1
+core.djm, Djm, checksum, int, 1
+core.djm, I2c, unit_type, str, 1
+core.djm, I2c, cpu_i2c_origin, float, 1
+core.djm, I2c, djm_15, float, 1
+core.djm, I2c, temp_sensor, float, 1
+core.djm, I2c, mtq, float, 1
+core.djm, I2c, sas1, float, 1
+core.djm, I2c, sas2, float, 1
+core.djm, I2c, djm_i2c, float, 1
+core.djm, I2c, heater1, float, 1
+core.djm, I2c, heater2, float, 1
+core.djm, I2c, heater3, float, 1
+core.djm, I2c, heater4, float, 1
+core.djm, I2c, hdrm1, float, 1
+core.djm, I2c, hdrm2, float, 1
+core.djm, Sas, x_angle, float, 1
+core.djm, Sas, y_angle, float, 1
+core.djm, Sas, tmp, float, 1
+core.djm, Sas, gain, int, 1
+core.djm, Sas, x_peak, int, 1
+core.djm, Sas, y_peak, int, 1
+core.djm, Sas, sensor_gain_mode, str, 1
+core.djm, Sas, error_chk, str, 1
+core.djm, Sas, timestamp, str, 1
+core.pcu, AdData, pcu_5v, float, 1
+core.pcu, AdData, other_pcu_v, float, 1
+core.pcu, AdData, i2c_v, float, 1
+core.pcu, Ads7830Pop, tx_a_power_ch0, float, 1
+core.pcu, Ads7830Pop, tx_a_power_ch1, float, 1
+core.pcu, Ads7830Pop, rx_a_power_ch2, float, 1
+core.pcu, Ads7830Pop, rx_b_power_ch3, float, 1
+core.pcu, Ads7830Pop, tx_a_volt_ch0, float, 1
+core.pcu, Ads7830Pop, tx_a_volt_ch1, float, 1
+core.pcu, Ads7830Pop, rx_a_volt_ch2, float, 1
+core.pcu, Ads7830Pop, rx_b_volt_ch3, float, 1
+core.pcu, I2c, unit_type, str, 1
+core.pcu, I2c, m_iru, float, 1
+core.pcu, I2c, ce_iru, float, 1
+core.pcu, I2c, mic, float, 1
+core.pcu, I2c, tx_a, float, 1
+core.pcu, I2c, rx_a, float, 1
+core.pcu, I2c, modem_a, float, 1
+core.pcu, I2c, stt1, float, 1
+core.pcu, I2c, stt2, float, 1
+core.pcu, I2c, stt3, float, 1
+core.pcu, I2c, stt4, float, 1
+core.pcu, I2c, obc_a, float, 1
+core.pcu, I2c, obc_b, float, 1
+core.pcu, I2c, tx_b, float, 1
+core.pcu, I2c, rx_b, float, 1
+core.pcu, I2c, modem_b, float, 1
+core.pcu, I2c, main, float, 1
+core.pcu, I2c, gas, float, 1
+core.pcu, I2c, gps1, float, 1
+core.pcu, I2c, gps2, float, 1
+core.pcu, I2cTmp, batt_control, float, 1
+core.pcu, I2cTmp, com_power, float, 1
+core.pcu, I2cTmp, obc, float, 1
+core.pcu, I2cTmp, etc, float, 1
+core.pcu, Pcu, sys_time, str, 1
+core.pcu, Pcu, log_size, int, 1
+core.pcu, Pcu, pcu_id, str, 1
+core.pcu, Pcu, pulse_status, int, 8
+core.pcu, Pcu, pop, Ads7830Pop, 1
+core.pcu, Pcu, power, AdData, 1
+core.pcu, Pcu, tmp, I2cTmp, 1
+core.pcu, Pcu, i2c_current, I2c, 1
+core.pcu, Pcu, i2c_voltage, I2c, 1
+core.pcu, Pcu, over_current_info, I2c, 1
+core.pcu, Pcu, over_voltage_info, int, 1
+core.pcu, Pcu, heater_pwm_value, int, 20
+core.pcu, Pcu, rx_a_rec_status, str, 1
+core.pcu, Pcu, rx_b_rec_status, str, 1
+core.pcu, Pcu, time_stamp, str, 1
+core.pcu, Pcu, version, str, 1
+core.pcu, Pcu, build_time, str, 1
+core.pcu, Pcu, build_date, str, 1
+core.pcu, Pcu, heater_status, int, 1
+core.pcu, Pcu, terminal_log, str, 1
+core.pcu, Pcu, checksum, int, 1
+core.gas, Gps, systime, str, 1
+core.gas, Gps, lat_deg, int, 1
+core.gas, Gps, long_deg, int, 1
+core.gas, Gps, altitude, int, 1
+core.gas, Gps, x_pos_vec, int, 1
+core.gas, Gps, y_pos_vec, int, 1
+core.gas, Gps, z_pos_vec, int, 1
+core.gas, Gps, x_velocity, int, 1
+core.gas, Gps, y_velocity, int, 1
+core.gas, Gps, z_velocity, int, 1
+core.gas, Gps, utc, int, 1
+core.gas, Gps, dummy1, int, 1
+core.gas, Gps, num_of_satellites_tracked, int, 1
+core.gas, Gps, num_of_sat_used_in_solution, int, 1
+core.gas, Gps, num_of_sat_vehicles_used_in_solution, int, 1
+core.gas, Gps, gps_glonass_sig_mask, int, 1
+core.gas, Gps, receiver_status, int, 1
+core.gas, Gps, solution_status, int, 1
+core.gas, Gps, position_type, int, 1
+core.gas, Gps, velocity_type, int, 1
+core.gas, Gps, time_clock_status, int, 1
+core.gas, Gps, bestpos_gps_week, int, 1
+core.gas, Gps, bestpos_gps_ms, int, 1
+core.gas, Gps, dummy2, int, 1
+core.gas, Gps, bestxyz_gps_ms, int, 1
+core.gas, Gps, time_gps_ms, int, 1
+core.gas, Gps, receiverStatusCls, ReceiverStatus, 1
+core.gas, Gps, gps_index, GpsIndex, 1
+core.gas, ReceiverStatus, error_flag, NoneType, 1
+core.gas, ReceiverStatus, temp_status, NoneType, 1
+core.gas, ReceiverStatus, vol_supply_status, NoneType, 1
+core.gas, ReceiverStatus, primary_ant_power_status, NoneType, 1
+core.gas, ReceiverStatus, lna, NoneType, 1
+core.gas, ReceiverStatus, primary_ant_open_circuit_flag, NoneType, 1
+core.gas, ReceiverStatus, primary_ant_short_circuit_flag, NoneType, 1
+core.gas, ReceiverStatus, cpu_overload_flag, NoneType, 1
+core.gas, ReceiverStatus, comport_buff_overrun, NoneType, 1
+core.gas, ReceiverStatus, link_overrun_flag, NoneType, 1
+core.gas, ReceiverStatus, input_overrun_flag, NoneType, 1
+core.gas, ReceiverStatus, aux_transmit_overrun_flag, NoneType, 1
+core.gas, ReceiverStatus, agc_out_of_range, NoneType, 1
+core.gas, ReceiverStatus, jammer_detected, NoneType, 1
+core.gas, ReceiverStatus, ins_reset_flag, NoneType, 1
+core.gas, ReceiverStatus, imu_com_failure, NoneType, 1
+core.gas, ReceiverStatus, gps_almanac_flag, NoneType, 1
+core.gas, ReceiverStatus, pos_solution_flag, NoneType, 1
+core.gas, ReceiverStatus, pos_fixed_flag, NoneType, 1
+core.gas, ReceiverStatus, clock_steering_status, NoneType, 1
+core.gas, ReceiverStatus, clock_model_flag, NoneType, 1
+core.gas, ReceiverStatus, ext_oscillator_locked_flag, NoneType, 1
+core.gas, ReceiverStatus, software_resource, NoneType, 1
+core.gas, ReceiverStatus, version_bit, NoneType, 1
+core.gas, ReceiverStatus, tracking_mode, NoneType, 1
+core.gas, ReceiverStatus, digital_filtering_enabled, NoneType, 1
+core.gas, ReceiverStatus, aux3_status_event_flag, NoneType, 1
+core.gas, ReceiverStatus, aux2_status_event_flag, NoneType, 1
+core.gas, ReceiverStatus, aux1_status_event_flag, NoneType, 1
+core.gyro, CeIru, systime, str, 10
+core.gyro, CeIru, counter, int, 10
+core.gyro, CeIru, gyro_status1, int, 10
+core.gyro, CeIru, gyro_status2, int, 10
+core.gyro, CeIru, iru_status, int, 10
+core.gyro, CeIru, err_status, int, 10
+core.gyro, CeIru, angular_increment_x, int, 10
+core.gyro, CeIru, angular_increment_y, int, 10
+core.gyro, CeIru, angular_increment_z1, int, 10
+core.gyro, CeIru, angular_increment_z2, int, 10
+core.gyro, CeIru, gyro_temp1, int, 10
+core.gyro, CeIru, gyro_temp2, int, 10
+core.gyro, CeIru, cpu_temp, int, 10
+core.gyro, CeIru, cluster_temp, int, 10
+core.gyro, CeIru, gyro1_rotation_vel, int, 10
+core.gyro, CeIru, gyro2_rotation_vel, int, 10
+core.gyro, CeIru, vx, int, 10
+core.gyro, CeIru, vy, int, 10
+core.gyro, CeIru, vz1, int, 10
+core.gyro, CeIru, vz2, int, 10
+core.gyro, CeIru, gyro_driver_status, int, 10
+core.gyro, MIru, systime, str, 10
+core.gyro, MIru, stx, int, 10
+core.gyro, MIru, frame_count, int, 10
+core.gyro, MIru, status, int, 10
+core.gyro, MIru, angular_velocity_a, float, 10
+core.gyro, MIru, angular_velocity_b, float, 10
+core.gyro, MIru, angular_velocity_c, float, 10
+core.gyro, MIru, angular_increment_a, float, 10
+core.gyro, MIru, angular_increment_b, float, 10
+core.gyro, MIru, angular_increment_c, float, 10
+core.gyro, MIru, gyro_temp_a, float, 10
+core.gyro, MIru, gyro_temp_b, float, 10
+core.gyro, MIru, gyro_temp_c, float, 10
+core.gyro, MIru, horizontal_parity, int, 10
+core.gyro, MIru, etb, int, 10
+core.gyro, MIru, is_active, int, 10
+core.gyro, MIru, gyro_driver_status, int, 10
+core.attitude_control, AttitudeControl, systime, str, 1
+core.attitude_control, AttitudeControl, gas_vector, float, 3
+core.attitude_control, AttitudeControl, sas_vector, float, 3
+core.attitude_control, AttitudeControl, gyro_vector, float, 3
+core.attitude_control, AttitudeControl, stt_quaternion, float, 4
+core.attitude_control, AttitudeControl, gps_info, float, 3
+core.attitude_control, AttitudeControl, utc_time, str, 1
+core.attitude_control, AttitudeControl, dcm_inertia_to_body, float, 9
+core.attitude_control, AttitudeControl, target_vector, float, 6
+core.attitude_control, AttitudeControl, target_omega, float, 3
+core.attitude_control, AttitudeControl, output_torque, float, 3
+core.attitude_control, AttitudeControl, output_magnetic_moment, float, 3
+core.attitude_control, AttitudeControl, target_position, float, 3
+core.attitude_control, AttitudeControl, attitude_determine_system, int, 1
+core.attitude_control, AttitudeControl, attitude_determine_system_str, str, 1
+core.attitude_control, AttitudeControl, attitude_control_system, int, 1
+core.attitude_control, AttitudeControl, attitude_control_system_str, str, 1
+core.attitude_control, AttitudeControl, actuator, int, 1
+core.attitude_control, AttitudeControl, actuator_str, str, 1
+core.attitude_control, AttitudeControl, target_observation, int, 1
+core.attitude_control, AttitudeControl, target_observation_str, str, 1
+core.attitude_control, AttitudeControl, target_orbit, int, 1
+core.attitude_control, AttitudeControl, target_orbit_str, str, 1
+core.obc, Obc, systime, str, 1
+core.obc, Obc, sap_i, int, 1
+core.obc, Obc, sap_v, int, 1
+core.obc, Obc, chrg_i, int, 1
+core.obc, Obc, chrg_v, int, 1
+core.obc, Obc, disc_i, int, 1
+core.obc, Obc, disc_v, int, 1
+core.obc, Obc, battery_power, int, 1
+core.obc, Obc, cell_balance_thresh, int, 1
+core.obc, Obc, pwm_period, float, 1
+core.obc, Obc, pwm_duty, float, 1
+core.obc, Obc, cell_balance_port_a, str, 5
+core.obc, Obc, cell_balance_port_b, str, 5
+core.obc, Obc, cell_balance_time, list, 2
+core.obc, Obc, battchg_auto_mode, str, 1
+core.obc, Obc, battchg_on, str, 1
+core.obc, Obc, cell_balance_mode, str, 1
+core.obc, Obc, in_port_status, int, 1
+core.obc, Obc, obc_fw_update_status, str, 1
+core.obc, Obc, pcu_djm_fw_update_status, str, 1
+core.obc, Obc, upload_file_name, str, 1
+core.obc, Obc, upload_file_error_count, int, 1
+core.obc, Obc, upload_file_lost_total_size, int, 1
+core.obc, Obc, upload_file_lost_offset, int, 1
+core.obc, Obc, upload_file_lost_size, int, 1
+core.obc, Obc, upload_file_state, str, 1
+core.obc, Obc, build_date, str, 1
+core.obc, Obc, revision, str, 1
+core.obc, Obc, keep_alive_count, int, 1
+core.obc, Obc, cpu_mode, str, 1
+core.obc, Obc, rx_modem_id, str, 1
+core.obc, Obc, run_app, str, 1
+core.obc, Obc, reg_wrcsr, str, 1
+core.obc, Obc, boot_count, int, 1
+core.rw, ErrorInfo, over_voltage, str, 1
+core.rw, ErrorInfo, sensor_error, str, 1
+core.rw, ErrorInfo, over_current, str, 1
+core.rw, ErrorInfo, over_velocity, str, 1
+core.rw, ErrorInfo, storage_error, str, 1
+core.rw, ErrorInfo, over_tmp, str, 1
+core.rw, Rw, rw_id, int, 1
+core.rw, Rw, systime, str, 10
+core.rw, Rw, omega_dot, int, 10
+core.rw, Rw, omega, int, 10
+core.rw, Rw, status, Status, 10
+core.rw, Rw, dummy, int, 10
+core.rw, Rw, error, ErrorInfo, 10
+core.rw, Rw, velocity, float, 10
+core.rw, Rw, current, float, 10
+core.rw, Rw, board_tmp, float, 10
+core.rw, Rw, motor_tmp, float, 10
+core.rw, Status, servo_status, str, 1
+core.rw, Status, torque_direction, str, 1
+core.rw, Status, motor_direction, str, 1
+core.stt, StarInfo, star_info_id, int, 1
+core.stt, StarInfo, hipparcos_id, int, 1
+core.stt, StarInfo, luminance, int, 1
+core.stt, StarInfo, azimuth, int, 1
+core.stt, StarInfo, elevation, int, 1
+core.stt, Stt, stt_id, int, 1
+core.stt, Stt, systime, str, 1
+core.stt, Stt, capture_id, int, 1
+core.stt, Stt, estimation_status, str, 1
+core.stt, Stt, attitude, int, 4
+core.stt, Stt, attitude_time, str, 1
+core.stt, Stt, board_temp, float, 1
+core.stt, Stt, cmos_temp, float, 1
+core.stt, Stt, fpga_detected_star_cnt, int, 1
+core.stt, Stt, cpu_detected_star_cnt, int, 1
+core.stt, Stt, detected_star_cnt, int, 1
+core.stt, Stt, star_info, StarInfo, 8
+core.stt, Stt, attitude_error, float, 1
+core.stt, Stt, focal_length, float, 1
+core.mission_controller, MissionController, systime, str, 1
+core.mission_controller, MissionController, mission_status, str, 1
+core.mission_controller, MissionController, hscm_status, str, 1
+core.mission_controller, MissionController, wcam_status, str, 1
+
+＝＝値の型一覧ここから＝＝
+ErrorInfo
+list
+GpsIndex
+StarInfo
+float
+Ads7830Pop
+Sas
+I2cTmp
+I2c
+int
+ReceiverStatus
+NoneType
+AdData
+Status
+str
+＝＝値の型一覧ここまで＝＝
+
+＝＝クラス名のメンバーが基本型かクラスかここから＝＝
+Djm
+	 I2c
+	 I2c
+	 I2c
+	 Sas
+	 Sas
+基本型だけじゃない
+I2c
+基本型だけ
+Sas
+基本型だけ
+AdData
+基本型だけ
+Ads7830Pop
+基本型だけ
+I2c
+基本型だけ
+I2cTmp
+基本型だけ
+Pcu
+	 Ads7830Pop
+	 AdData
+	 I2cTmp
+	 I2c
+	 I2c
+	 I2c
+基本型だけじゃない
+Gps
+	 ReceiverStatus
+	 GpsIndex
+基本型だけじゃない
+ReceiverStatus
+基本型だけ
+CeIru
+基本型だけ
+MIru
+基本型だけ
+AttitudeControl
+基本型だけ
+Obc
+	 list
+基本型だけじゃない
+ErrorInfo
+基本型だけ
+Rw
+	 Status
+	 ErrorInfo
+基本型だけじゃない
+Status
+基本型だけ
+StarInfo
+基本型だけ
+Stt
+	 StarInfo
+基本型だけじゃない
+MissionController
+基本型だけ
+＝＝クラス名のメンバーが基本型かクラスかここまで＝＝
+
+＝＝クラス名のメンバーが基本型だけ ここから＝＝
+I2c
+Sas
+AdData
+Ads7830Pop
+I2c
+I2cTmp
+ReceiverStatus
+CeIru
+MIru
+AttitudeControl
+ErrorInfo
+Status
+StarInfo
+MissionController
+＝＝クラス名のメンバーが基本型だけ ここまで＝＝
+
+＝＝クラス名のメンバーが基本型だけじゃない ここから＝＝
+Djm
+Pcu
+Gps
+Obc
+Rw
+Stt
+＝＝クラス名のメンバーが基本型だけじゃない ここまで＝＝
+
+＝＝クラスinクラスの解決 ここから＝＝
+
+☆Djm
+djm_id, int
+systime, str
+log_size, int
+hk_djm_id, int
+string_v, float
+pulse_status, int
+sap_panel_v, float
+sap_panel_i, float
+i2c_sas_power, float
+tmp, float
+ads1115_temp, float
+i2c_current, I2c を解決する
+i2c_current.I2c.unit_type, str
+i2c_current.I2c.m_iru, float
+i2c_current.I2c.ce_iru, float
+i2c_current.I2c.mic, float
+i2c_current.I2c.tx_a, float
+i2c_current.I2c.rx_a, float
+i2c_current.I2c.modem_a, float
+i2c_current.I2c.stt1, float
+i2c_current.I2c.stt2, float
+i2c_current.I2c.stt3, float
+i2c_current.I2c.stt4, float
+i2c_current.I2c.obc_a, float
+i2c_current.I2c.obc_b, float
+i2c_current.I2c.tx_b, float
+i2c_current.I2c.rx_b, float
+i2c_current.I2c.modem_b, float
+i2c_current.I2c.main, float
+i2c_current.I2c.gas, float
+i2c_current.I2c.gps1, float
+i2c_current.I2c.gps2, float
+i2c_voltage, I2c を解決する
+i2c_voltage.I2c.unit_type, str
+i2c_voltage.I2c.m_iru, float
+i2c_voltage.I2c.ce_iru, float
+i2c_voltage.I2c.mic, float
+i2c_voltage.I2c.tx_a, float
+i2c_voltage.I2c.rx_a, float
+i2c_voltage.I2c.modem_a, float
+i2c_voltage.I2c.stt1, float
+i2c_voltage.I2c.stt2, float
+i2c_voltage.I2c.stt3, float
+i2c_voltage.I2c.stt4, float
+i2c_voltage.I2c.obc_a, float
+i2c_voltage.I2c.obc_b, float
+i2c_voltage.I2c.tx_b, float
+i2c_voltage.I2c.rx_b, float
+i2c_voltage.I2c.modem_b, float
+i2c_voltage.I2c.main, float
+i2c_voltage.I2c.gas, float
+i2c_voltage.I2c.gps1, float
+i2c_voltage.I2c.gps2, float
+over_current_info, I2c を解決する
+over_current_info.I2c.unit_type, str
+over_current_info.I2c.m_iru, float
+over_current_info.I2c.ce_iru, float
+over_current_info.I2c.mic, float
+over_current_info.I2c.tx_a, float
+over_current_info.I2c.rx_a, float
+over_current_info.I2c.modem_a, float
+over_current_info.I2c.stt1, float
+over_current_info.I2c.stt2, float
+over_current_info.I2c.stt3, float
+over_current_info.I2c.stt4, float
+over_current_info.I2c.obc_a, float
+over_current_info.I2c.obc_b, float
+over_current_info.I2c.tx_b, float
+over_current_info.I2c.rx_b, float
+over_current_info.I2c.modem_b, float
+over_current_info.I2c.main, float
+over_current_info.I2c.gas, float
+over_current_info.I2c.gps1, float
+over_current_info.I2c.gps2, float
+sas1, Sas を解決する
+sas1.Sas.x_angle, float
+sas1.Sas.y_angle, float
+sas1.Sas.tmp, float
+sas1.Sas.gain, int
+sas1.Sas.x_peak, int
+sas1.Sas.y_peak, int
+sas1.Sas.sensor_gain_mode, str
+sas1.Sas.error_chk, str
+sas1.Sas.timestamp, str
+sas2, Sas を解決する
+sas2.Sas.x_angle, float
+sas2.Sas.y_angle, float
+sas2.Sas.tmp, float
+sas2.Sas.gain, int
+sas2.Sas.x_peak, int
+sas2.Sas.y_peak, int
+sas2.Sas.sensor_gain_mode, str
+sas2.Sas.error_chk, str
+sas2.Sas.timestamp, str
+time_stamp, str
+djm_version, str
+build_time, str
+build_date, str
+terminal_log, str
+checksum, int
+
+☆Pcu
+sys_time, str
+log_size, int
+pcu_id, str
+pulse_status, int
+pop, Ads7830Pop を解決する
+pop.Ads7830Pop.tx_a_power_ch0, float
+pop.Ads7830Pop.tx_a_power_ch1, float
+pop.Ads7830Pop.rx_a_power_ch2, float
+pop.Ads7830Pop.rx_b_power_ch3, float
+pop.Ads7830Pop.tx_a_volt_ch0, float
+pop.Ads7830Pop.tx_a_volt_ch1, float
+pop.Ads7830Pop.rx_a_volt_ch2, float
+pop.Ads7830Pop.rx_b_volt_ch3, float
+power, AdData を解決する
+power.AdData.pcu_5v, float
+power.AdData.other_pcu_v, float
+power.AdData.i2c_v, float
+tmp, I2cTmp を解決する
+tmp.I2cTmp.batt_control, float
+tmp.I2cTmp.com_power, float
+tmp.I2cTmp.obc, float
+tmp.I2cTmp.etc, float
+i2c_current, I2c を解決する
+i2c_current.I2c.unit_type, str
+i2c_current.I2c.m_iru, float
+i2c_current.I2c.ce_iru, float
+i2c_current.I2c.mic, float
+i2c_current.I2c.tx_a, float
+i2c_current.I2c.rx_a, float
+i2c_current.I2c.modem_a, float
+i2c_current.I2c.stt1, float
+i2c_current.I2c.stt2, float
+i2c_current.I2c.stt3, float
+i2c_current.I2c.stt4, float
+i2c_current.I2c.obc_a, float
+i2c_current.I2c.obc_b, float
+i2c_current.I2c.tx_b, float
+i2c_current.I2c.rx_b, float
+i2c_current.I2c.modem_b, float
+i2c_current.I2c.main, float
+i2c_current.I2c.gas, float
+i2c_current.I2c.gps1, float
+i2c_current.I2c.gps2, float
+i2c_voltage, I2c を解決する
+i2c_voltage.I2c.unit_type, str
+i2c_voltage.I2c.m_iru, float
+i2c_voltage.I2c.ce_iru, float
+i2c_voltage.I2c.mic, float
+i2c_voltage.I2c.tx_a, float
+i2c_voltage.I2c.rx_a, float
+i2c_voltage.I2c.modem_a, float
+i2c_voltage.I2c.stt1, float
+i2c_voltage.I2c.stt2, float
+i2c_voltage.I2c.stt3, float
+i2c_voltage.I2c.stt4, float
+i2c_voltage.I2c.obc_a, float
+i2c_voltage.I2c.obc_b, float
+i2c_voltage.I2c.tx_b, float
+i2c_voltage.I2c.rx_b, float
+i2c_voltage.I2c.modem_b, float
+i2c_voltage.I2c.main, float
+i2c_voltage.I2c.gas, float
+i2c_voltage.I2c.gps1, float
+i2c_voltage.I2c.gps2, float
+over_current_info, I2c を解決する
+over_current_info.I2c.unit_type, str
+over_current_info.I2c.m_iru, float
+over_current_info.I2c.ce_iru, float
+over_current_info.I2c.mic, float
+over_current_info.I2c.tx_a, float
+over_current_info.I2c.rx_a, float
+over_current_info.I2c.modem_a, float
+over_current_info.I2c.stt1, float
+over_current_info.I2c.stt2, float
+over_current_info.I2c.stt3, float
+over_current_info.I2c.stt4, float
+over_current_info.I2c.obc_a, float
+over_current_info.I2c.obc_b, float
+over_current_info.I2c.tx_b, float
+over_current_info.I2c.rx_b, float
+over_current_info.I2c.modem_b, float
+over_current_info.I2c.main, float
+over_current_info.I2c.gas, float
+over_current_info.I2c.gps1, float
+over_current_info.I2c.gps2, float
+over_voltage_info, int
+heater_pwm_value, int
+rx_a_rec_status, str
+rx_b_rec_status, str
+time_stamp, str
+version, str
+build_time, str
+build_date, str
+heater_status, int
+terminal_log, str
+checksum, int
+
+☆Gps
+systime, str
+lat_deg, int
+long_deg, int
+altitude, int
+x_pos_vec, int
+y_pos_vec, int
+z_pos_vec, int
+x_velocity, int
+y_velocity, int
+z_velocity, int
+utc, int
+dummy1, int
+num_of_satellites_tracked, int
+num_of_sat_used_in_solution, int
+num_of_sat_vehicles_used_in_solution, int
+gps_glonass_sig_mask, int
+receiver_status, int
+solution_status, int
+position_type, int
+velocity_type, int
+time_clock_status, int
+bestpos_gps_week, int
+bestpos_gps_ms, int
+dummy2, int
+bestxyz_gps_ms, int
+time_gps_ms, int
+receiverStatusCls, ReceiverStatus を解決する
+receiverStatusCls.ReceiverStatus.error_flag, NoneType
+receiverStatusCls.ReceiverStatus.temp_status, NoneType
+receiverStatusCls.ReceiverStatus.vol_supply_status, NoneType
+receiverStatusCls.ReceiverStatus.primary_ant_power_status, NoneType
+receiverStatusCls.ReceiverStatus.lna, NoneType
+receiverStatusCls.ReceiverStatus.primary_ant_open_circuit_flag, NoneType
+receiverStatusCls.ReceiverStatus.primary_ant_short_circuit_flag, NoneType
+receiverStatusCls.ReceiverStatus.cpu_overload_flag, NoneType
+receiverStatusCls.ReceiverStatus.comport_buff_overrun, NoneType
+receiverStatusCls.ReceiverStatus.link_overrun_flag, NoneType
+receiverStatusCls.ReceiverStatus.input_overrun_flag, NoneType
+receiverStatusCls.ReceiverStatus.aux_transmit_overrun_flag, NoneType
+receiverStatusCls.ReceiverStatus.agc_out_of_range, NoneType
+receiverStatusCls.ReceiverStatus.jammer_detected, NoneType
+receiverStatusCls.ReceiverStatus.ins_reset_flag, NoneType
+receiverStatusCls.ReceiverStatus.imu_com_failure, NoneType
+receiverStatusCls.ReceiverStatus.gps_almanac_flag, NoneType
+receiverStatusCls.ReceiverStatus.pos_solution_flag, NoneType
+receiverStatusCls.ReceiverStatus.pos_fixed_flag, NoneType
+receiverStatusCls.ReceiverStatus.clock_steering_status, NoneType
+receiverStatusCls.ReceiverStatus.clock_model_flag, NoneType
+receiverStatusCls.ReceiverStatus.ext_oscillator_locked_flag, NoneType
+receiverStatusCls.ReceiverStatus.software_resource, NoneType
+receiverStatusCls.ReceiverStatus.version_bit, NoneType
+receiverStatusCls.ReceiverStatus.tracking_mode, NoneType
+receiverStatusCls.ReceiverStatus.digital_filtering_enabled, NoneType
+receiverStatusCls.ReceiverStatus.aux3_status_event_flag, NoneType
+receiverStatusCls.ReceiverStatus.aux2_status_event_flag, NoneType
+receiverStatusCls.ReceiverStatus.aux1_status_event_flag, NoneType
+gps_index, GpsIndex を解決する
+GpsIndex は解決不能なので深堀しない
+
+☆Obc
+systime, str
+sap_i, int
+sap_v, int
+chrg_i, int
+chrg_v, int
+disc_i, int
+disc_v, int
+battery_power, int
+cell_balance_thresh, int
+pwm_period, float
+pwm_duty, float
+cell_balance_port_a, str
+cell_balance_port_b, str
+cell_balance_time, list を解決する
+list は解決不能なので深堀しない
+battchg_auto_mode, str
+battchg_on, str
+cell_balance_mode, str
+in_port_status, int
+obc_fw_update_status, str
+pcu_djm_fw_update_status, str
+upload_file_name, str
+upload_file_error_count, int
+upload_file_lost_total_size, int
+upload_file_lost_offset, int
+upload_file_lost_size, int
+upload_file_state, str
+build_date, str
+revision, str
+keep_alive_count, int
+cpu_mode, str
+rx_modem_id, str
+run_app, str
+reg_wrcsr, str
+boot_count, int
+
+☆Rw
+rw_id, int
+systime, str
+omega_dot, int
+omega, int
+status, Status を解決する
+status.Status.servo_status, str
+status.Status.torque_direction, str
+status.Status.motor_direction, str
+dummy, int
+error, ErrorInfo を解決する
+error.ErrorInfo.over_voltage, str
+error.ErrorInfo.sensor_error, str
+error.ErrorInfo.over_current, str
+error.ErrorInfo.over_velocity, str
+error.ErrorInfo.storage_error, str
+error.ErrorInfo.over_tmp, str
+velocity, float
+current, float
+board_tmp, float
+motor_tmp, float
+
+☆Stt
+stt_id, int
+systime, str
+capture_id, int
+estimation_status, str
+attitude, int
+attitude_time, str
+board_temp, float
+cmos_temp, float
+fpga_detected_star_cnt, int
+cpu_detected_star_cnt, int
+detected_star_cnt, int
+star_info, StarInfo を解決する
+star_info.StarInfo.star_info_id, int
+star_info.StarInfo.hipparcos_id, int
+star_info.StarInfo.luminance, int
+star_info.StarInfo.azimuth, int
+star_info.StarInfo.elevation, int
+attitude_error, float
+focal_length, float
+クラスinクラスの解決 ここまで＝＝
