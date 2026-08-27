@@ -1,0 +1,577 @@
+☆instのモジュール名・クラス名：core.djm.Djm
+DJM 1 SIZE 160[byte]
+systime 
+DJMログサイズ 0
+DJM基板ID 0
+ストリング電圧1~8 [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+パルスの出力状況 [0, 0, 0, 0]
+太陽電池パネル面電圧 0.000000
+太陽電池パネル面電流 0.000000
+I2C監視用2.5V 0.000000
+DJM基板温度 0.000000
++5V(CPUとその周辺、I2Cの3.3Vの元) 0.000000[mA]
+[DJM電源15V 0.000000[mA]
+[温度センサ電源 0.000000[mA]
+[太陽センサ1の電源 0.000000[mA]
+[太陽センサ2の電源 0.000000[mA]
+[MTQ用電源 0.000000[mA]
+[I2C 3.3V電源 0.000000[mA]
+[ヒータ1電源(+15V無制御) 0.000000[mA]
+[ヒータ2電源(+15V無制御) 0.000000[mA]
+[ヒータ3電源(+15V無制御) 0.000000[mA]
+[ヒータ4電源(+15V無制御) 0.000000[mA]
+[HDRM1電源 0.000000[mA]
+[HDRM2電源 0.000000[mA]
++5V(CPUとその周辺、I2Cの3.3Vの元) 0.000000[V]
+[DJM電源15V 0.000000[V]
+[温度センサ電源 0.000000[V]
+[太陽センサ1の電源 0.000000[V]
+[太陽センサ2の電源 0.000000[V]
+[MTQ用電源 0.000000[V]
+[I2C 3.3V電源 0.000000[V]
+[ヒータ1電源(+15V無制御) 0.000000[V]
+[ヒータ2電源(+15V無制御) 0.000000[V]
+[ヒータ3電源(+15V無制御) 0.000000[V]
+[ヒータ4電源(+15V無制御) 0.000000[V]
+[HDRM1電源 0.000000[V]
+[HDRM2電源 0.000000[V]
+【太陽センサー】
+X軸 0.000000[deg]
+Y軸 0.000000[deg]
+温度 0.000000[degC]
+ゲイン 0.000000[msec]
+X軸ピーク輝度値 0
+Y軸ピーク輝度値 0
+センサゲインモード 
+エラーチェック 
+データ取得時刻 
+【太陽センサー】
+X軸 0.000000[deg]
+Y軸 0.000000[deg]
+温度 0.000000[degC]
+ゲイン 0.000000[msec]
+X軸ピーク輝度値 0
+Y軸ピーク輝度値 0
+センサゲインモード 
+エラーチェック 
+データ取得時刻 
+DJM時刻 
+Version 0x00
+ビルド時刻 00:00:00
+ビルド日時 1900/01/01
+ターミナルログ 
+チェックサム 0
+
+☆instのモジュール名・クラス名：core.djm.I2c
++5V(CPUとその周辺、I2Cの3.3Vの元) 0.000000[V]
+[DJM電源15V 0.000000[V]
+[温度センサ電源 0.000000[V]
+[太陽センサ1の電源 0.000000[V]
+[太陽センサ2の電源 0.000000[V]
+[MTQ用電源 0.000000[V]
+[I2C 3.3V電源 0.000000[V]
+[ヒータ1電源(+15V無制御) 0.000000[V]
+[ヒータ2電源(+15V無制御) 0.000000[V]
+[ヒータ3電源(+15V無制御) 0.000000[V]
+[ヒータ4電源(+15V無制御) 0.000000[V]
+[HDRM1電源 0.000000[V]
+[HDRM2電源 0.000000[V]
+
+☆instのモジュール名・クラス名：core.djm.Sas
+【太陽センサー】
+X軸 0.000000[deg]
+Y軸 0.000000[deg]
+温度 0.000000[degC]
+ゲイン 0.000000[msec]
+X軸ピーク輝度値 0
+Y軸ピーク輝度値 0
+センサゲインモード 
+エラーチェック 
+データ取得時刻 
+
+☆instのモジュール名・クラス名：core.pcu.AdData
+PCU用+5V電源電圧 0 [V]
+相手のPCUの電源電圧 0 [V]
+I2C電源電圧 0 [V]
+
+☆instのモジュール名・クラス名：core.pcu.Ads7830Pop
+Ch0 送信機Aパワー 0.000000[dBm]
+Ch0 送信機Aパワー 0.000000 [V]
+Ch1 送信機Aパワー 0.000000[dBm]
+Ch1 送信機Aパワー 0.000000 [V]
+Ch2 受信機Aパワー 0.000000[dBm]
+Ch2 受信機Aパワー 0.000000 [V]
+Ch3 受信機Bパワー 0.000000[dBm]
+Ch3 受信機Bパワー 0.000000 [V]
+
+☆instのモジュール名・クラス名：core.pcu.I2c
+メイン 0.000000 [V]
+OBCA 0.000000 [V]
+OBCB 0.000000 [V]
+送信機A 0.000000 [V]
+受信機A 0.000000 [V]
+モデムA 0.000000 [V]
+送信機B 0.000000 [V]
+受信機B 0.000000 [V]
+モデムB 0.000000 [V]
+GAS 0.000000 [V]
+MIRU 0.000000 [V]
+CEIRU 0.000000 [V]
+STT1 0.000000 [V]
+STT2 0.000000 [V]
+STT3 0.000000 [V]
+STT4 0.000000 [V]
+GPS1 0.000000 [V]
+GPS2 0.000000 [V]
+MIC 0.000000 [V]
+
+☆instのモジュール名・クラス名：core.pcu.I2cTmp
+バッテリ制御部 0.000000 [degC]
+通信機電源部 0.000000 [degC]
+OBC周辺 0.000000 [degC]
+その他 0.000000 [degC]
+
+☆instのモジュール名・クラス名：core.pcu.Pcu
+PCU SIZE 180[byte]
+systime 
+PCU ログサイズ 0
+PCU ID 
+パルス制御状況 [0, 0, 0, 0, 0, 0, 0, 0]
+Ch0 送信機Aパワー 0.000000[dBm]
+Ch0 送信機Aパワー 0.000000 [V]
+Ch1 送信機Aパワー 0.000000[dBm]
+Ch1 送信機Aパワー 0.000000 [V]
+Ch2 受信機Aパワー 0.000000[dBm]
+Ch2 受信機Aパワー 0.000000 [V]
+Ch3 受信機Bパワー 0.000000[dBm]
+Ch3 受信機Bパワー 0.000000 [V]
+PCU用+5V電源電圧 0 [V]
+相手のPCUの電源電圧 0 [V]
+I2C電源電圧 0 [V]
+バッテリ制御部 0.000000 [degC]
+通信機電源部 0.000000 [degC]
+OBC周辺 0.000000 [degC]
+その他 0.000000 [degC]
+メイン 0.000000 [mA]
+OBCA 0.000000 [mA]
+OBCB 0.000000 [mA]
+送信機A 0.000000 [mA]
+受信機A 0.000000 [mA]
+モデムA 0.000000 [mA]
+送信機B 0.000000 [mA]
+受信機B 0.000000 [mA]
+モデムB 0.000000 [mA]
+GAS 0.000000 [mA]
+MIRU 0.000000 [mA]
+CEIRU 0.000000 [mA]
+STT1 0.000000 [mA]
+STT2 0.000000 [mA]
+STT3 0.000000 [mA]
+STT4 0.000000 [mA]
+GPS1 0.000000 [mA]
+GPS2 0.000000 [mA]
+MIC 0.000000 [mA]
+メイン 0.000000 [V]
+OBCA 0.000000 [V]
+OBCB 0.000000 [V]
+送信機A 0.000000 [V]
+受信機A 0.000000 [V]
+モデムA 0.000000 [V]
+送信機B 0.000000 [V]
+受信機B 0.000000 [V]
+モデムB 0.000000 [V]
+GAS 0.000000 [V]
+MIRU 0.000000 [V]
+CEIRU 0.000000 [V]
+STT1 0.000000 [V]
+STT2 0.000000 [V]
+STT3 0.000000 [V]
+STT4 0.000000 [V]
+GPS1 0.000000 [V]
+GPS2 0.000000 [V]
+MIC 0.000000 [V]
+DJMのヒータ駆動PWM値 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+PCU時刻 --:--:--:--
+version 0x00
+ビルド時刻 00:00:00
+ビルド日時 01/01/00
+ターミナルログ 
+チェックサム 0
+
+☆instのモジュール名・クラス名：core.gas.Gps
+GPS SIZE 136[byte]
+systime 
+lat_deg 0
+long_deg 0
+altitude 0
+x_pos_vec 0
+y_pos_vec 0
+z_pos_vec 0
+x_velocity 0
+y_velocity 0
+z_velocity 0
+utc 0
+satellites_tracked 0
+sat_used_in_solution 0
+sat_vehicles_used_in_solution 0
+gps_glonass_sig_mask 0
+solution_status 0
+position_type 0
+velocity_type 0
+time_clock_status 0
+bestpos_gps_week 0
+bestpos_gps_ms 0
+bestxyz_gps_ms 0
+time_gps_ms 0
+dummy1 0
+dummy2 0
+Error flag : None
+Tempareture status : None
+Voltage supply status : None
+Primary antenna power status : None
+LNA Failure : None
+Primary antenna open circuit flag : None
+Primary antenna short circuit flag : None
+CPU overload flag : None
+COM port transmit buffer overrun : None
+Link overrun flag : None
+Input overrun flag : None
+Aux transmit overrun flag : None
+AGC out of range : None
+Jammer Detected : None
+INS reset flag : None
+IMU communication failure : None
+GPS almanac flag/UTC known : None
+Position solution flag : None
+Position fixed flag : None
+Clock steering status : None
+Clock model flag : None
+External oscillator locked flag : None
+Software resource : None
+Version bit : None
+Tracking mode : None
+Digital Filtering Enabled : None
+Auxiliary3 status event flag : None
+Auxiliary2 status event flag : None
+Auxiliary1 status event flag : None
+gps_index -1
+
+☆instのモジュール名・クラス名：core.gas.ReceiverStatus
+Error flag : None
+Tempareture status : None
+Voltage supply status : None
+Primary antenna power status : None
+LNA Failure : None
+Primary antenna open circuit flag : None
+Primary antenna short circuit flag : None
+CPU overload flag : None
+COM port transmit buffer overrun : None
+Link overrun flag : None
+Input overrun flag : None
+Aux transmit overrun flag : None
+AGC out of range : None
+Jammer Detected : None
+INS reset flag : None
+IMU communication failure : None
+GPS almanac flag/UTC known : None
+Position solution flag : None
+Position fixed flag : None
+Clock steering status : None
+Clock model flag : None
+External oscillator locked flag : None
+Software resource : None
+Version bit : None
+Tracking mode : None
+Digital Filtering Enabled : None
+Auxiliary3 status event flag : None
+Auxiliary2 status event flag : None
+Auxiliary1 status event flag : None
+
+☆instのモジュール名・クラス名：core.gyro.CeIru
+systime ['', '', '', '', '', '', '', '', '', '']
+counter [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Gyro1状態 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Gyro2状態 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+センサボックス状態 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+エラーステータス [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+X軸角度増分[deg] [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Y軸角度増分[deg] [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Z1軸角度増分[deg] [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Z2軸角度増分[deg] [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Gyro1温度[degC] [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Gyro2温度[degC] [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+CPU温度[degC] [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Cluster温度 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Gyro1回転速度[rpm] [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Gyro2回転速度[rpm] [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+X軸角速度[arcsec/s] [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Y軸角速度[arcsec/s] [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Z1軸角速度[arcsec/s] [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Z2軸角速度[arcsec/s] [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+ジャイロドライバステータス [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+☆instのモジュール名・クラス名：core.gyro.MIru
+systime ['', '', '', '', '', '', '', '', '', '']
+Stx [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+フレームカウント [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+ステータス [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+ジャイロA 角速度[deg/s] [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+ジャイロB 角速度[deg/s] [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+ジャイロC 角速度[deg/s] [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+ジャイロA 積分[deg] [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+ジャイロB 積分[deg] [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+ジャイロC 積分[deg] [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+ジャイロA 温度[degC] [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+ジャイロB 温度[degC] [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+ジャイロC 温度[degC] [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+水平パリティ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Etb [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+ジャイロ有効フラグ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+ジャイロドライバステータス [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+☆instのモジュール名・クラス名：core.attitude_control.AttitudeControl
+Attitude Control SIZE 384[byte]
+systime 0:0:0.0
+地磁気ベクトル(機体座標系) [0.0, 0.0, 0.0]
+太陽方向ベクトル(機体座標系) [0.0, 0.0, 0.0]
+角速度ベクトル(機体座標系)[deg/s] [0.0, 0.0, 0.0]
+クォータニオン(機体座標系) [0.0, 0.0, 0.0, 0.0]
+GPS情報 緯度0.0[度]
+                経度0.0[度] 高度0.0[m]
+UTC時刻: 
+DCM(慣性座標系→機体座標系)
+                [0.0 0.0 0.0]
+                [0.0 0.0 0.0]
+                [0.0 0.0 0.0]
+目標方向ベクトル(機体座標系) 観測方向 [0.0, 0.0, 0.0]
+目標方向ベクトル(機体座標系) 進行(軌道)方向 [0.0, 0.0, 0.0]
+目標角速度ベクトル(機体座標系)
+                X0.0 Y0.0 Z0.0
+出力トルク [0.0, 0.0, 0.0]
+出力磁気モーメント [0.0, 0.0, 0.0]
+目標点 緯度0.0[度] 経度0.0[度]
+                高度0.0[m]
+姿勢決定則 [][0]
+姿勢制御則 [][0]
+出力機器 [][0]
+観測目標方向 [][0]
+軌道(進行)方向 [][0]
+
+☆instのモジュール名・クラス名：core.obc.Obc
+OBC SIZE 126[byte]
+systime 
+sap current 0.000000
+Bat charge current 0.000000
+Bat discharge current 0.000000
+sap voltage 0.000000
+Bat charge voltage 0.000000
+Bat discharge voltage 0.000000
+電池容量 0[mAh]
+CELLバランス回路駆動閾値 0[mV]
+PWM周期 0.000000[uSec]
+CELLバランス回路駆動状態A ['', '', '', '', '']
+CELLバランス回路駆動状態B ['', '', '', '', '']
+バッテリー充電モード 
+PWM割合 0
+充電ON/OFFフラグ 
+Obc Fw Update Status 
+Pcu Djm Fw Update Status -
+In Port Status 0
+Upload file name 
+Upload file error count 0
+Upload file lost offset 0
+Upload file lost size 0
+Upload file state 
+Build date 
+Revision 
+KeepAlive受信カウンタ 0
+Cpu mode 
+Rx Modem ID 
+Run 
+Reg WRCSR 
+Boot Count 0
+
+☆instのモジュール名・クラス名：core.rw.ErrorInfo
+Over Voltage 
+Sensor Error 
+Over Current 
+Over Velocity 
+Storage Error 
+Over Temp 
+
+☆instのモジュール名・クラス名：core.rw.Rw
+RW2 SIZE 240[byte]
+systime ['', '', '', '', '', '', '', '', '', '']
+加速度指令 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+速度指令 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+status Servo Status 
+Torque Direction 
+Motor Direction 
+status Servo Status 
+Torque Direction 
+Motor Direction 
+status Servo Status 
+Torque Direction 
+Motor Direction 
+status Servo Status 
+Torque Direction 
+Motor Direction 
+status Servo Status 
+Torque Direction 
+Motor Direction 
+status Servo Status 
+Torque Direction 
+Motor Direction 
+status Servo Status 
+Torque Direction 
+Motor Direction 
+status Servo Status 
+Torque Direction 
+Motor Direction 
+status Servo Status 
+Torque Direction 
+Motor Direction 
+status Servo Status 
+Torque Direction 
+Motor Direction 
+dummy [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+error Over Voltage 
+Sensor Error 
+Over Current 
+Over Velocity 
+Storage Error 
+Over Temp 
+error Over Voltage 
+Sensor Error 
+Over Current 
+Over Velocity 
+Storage Error 
+Over Temp 
+error Over Voltage 
+Sensor Error 
+Over Current 
+Over Velocity 
+Storage Error 
+Over Temp 
+error Over Voltage 
+Sensor Error 
+Over Current 
+Over Velocity 
+Storage Error 
+Over Temp 
+error Over Voltage 
+Sensor Error 
+Over Current 
+Over Velocity 
+Storage Error 
+Over Temp 
+error Over Voltage 
+Sensor Error 
+Over Current 
+Over Velocity 
+Storage Error 
+Over Temp 
+error Over Voltage 
+Sensor Error 
+Over Current 
+Over Velocity 
+Storage Error 
+Over Temp 
+error Over Voltage 
+Sensor Error 
+Over Current 
+Over Velocity 
+Storage Error 
+Over Temp 
+error Over Voltage 
+Sensor Error 
+Over Current 
+Over Velocity 
+Storage Error 
+Over Temp 
+error Over Voltage 
+Sensor Error 
+Over Current 
+Over Velocity 
+Storage Error 
+Over Temp 
+速度モニタ [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+電流モニタ [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+基板温度 [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+モータ軸受け温度 [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+サンプリング周期 10[Hz]
+1サンプリングSIZE 24[byte/Hz]
+
+☆instのモジュール名・クラス名：core.rw.Status
+Servo Status 
+Torque Direction 
+Motor Direction 
+
+☆instのモジュール名・クラス名：core.stt.StarInfo
+StarInfo2
+hipparcos_id 0
+luminance 0
+azimuth 0
+elevation 0
+
+☆instのモジュール名・クラス名：core.stt.Stt
+STT2 SIZE 228[byte]
+systime 
+capture_id 0
+estimation_status 
+attitude [0, 0, 0, 0]
+board_temp 0.000000
+cmos_temp 0.000000
+detected_star_cnt (FPGA) 0
+detected_star_cnt (CPU) 0
+detected_star_cnt 0
+StarInfo1
+hipparcos_id 0
+luminance 0
+azimuth 0
+elevation 0
+StarInfo2
+hipparcos_id 0
+luminance 0
+azimuth 0
+elevation 0
+StarInfo3
+hipparcos_id 0
+luminance 0
+azimuth 0
+elevation 0
+StarInfo4
+hipparcos_id 0
+luminance 0
+azimuth 0
+elevation 0
+StarInfo5
+hipparcos_id 0
+luminance 0
+azimuth 0
+elevation 0
+StarInfo6
+hipparcos_id 0
+luminance 0
+azimuth 0
+elevation 0
+StarInfo7
+hipparcos_id 0
+luminance 0
+azimuth 0
+elevation 0
+StarInfo8
+hipparcos_id 0
+luminance 0
+azimuth 0
+elevation 0
+attitude_error 0.000000
+focal_length 0.000000
+
+☆instのモジュール名・クラス名：core.mission_controller.MissionController
+Mission Controller SIZE 8[byte]
+systime 
+ミッション系接続状態 
+HSCM状態 
+PowerShot状態 
+

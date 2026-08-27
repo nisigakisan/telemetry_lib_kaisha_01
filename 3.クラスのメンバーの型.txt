@@ -1,0 +1,15 @@
+AdData
+Ads7830Pop
+ErrorInfo
+GpsIndex
+I2c
+I2cTmp
+NoneType
+ReceiverStatus
+Sas
+StarInfo
+Status
+float
+int
+list
+str

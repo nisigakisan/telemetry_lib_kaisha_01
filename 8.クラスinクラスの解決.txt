@@ -1,6 +1,4 @@
-＝＝クラスinクラスの解決 ここから＝＝
-
-☆Djm
+☆メンバーの解決：Djm
 djm_id, int
 systime, str
 log_size, int
@@ -12,7 +10,7 @@ sap_panel_i, float
 i2c_sas_power, float
 tmp, float
 ads1115_temp, float
-i2c_current, I2c を解決する
+解決対象：i2c_current, I2c
 i2c_current.I2c.unit_type, str
 i2c_current.I2c.m_iru, float
 i2c_current.I2c.ce_iru, float
@@ -33,7 +31,7 @@ i2c_current.I2c.main, float
 i2c_current.I2c.gas, float
 i2c_current.I2c.gps1, float
 i2c_current.I2c.gps2, float
-i2c_voltage, I2c を解決する
+解決対象：i2c_voltage, I2c
 i2c_voltage.I2c.unit_type, str
 i2c_voltage.I2c.m_iru, float
 i2c_voltage.I2c.ce_iru, float
@@ -54,7 +52,7 @@ i2c_voltage.I2c.main, float
 i2c_voltage.I2c.gas, float
 i2c_voltage.I2c.gps1, float
 i2c_voltage.I2c.gps2, float
-over_current_info, I2c を解決する
+解決対象：over_current_info, I2c
 over_current_info.I2c.unit_type, str
 over_current_info.I2c.m_iru, float
 over_current_info.I2c.ce_iru, float
@@ -75,7 +73,7 @@ over_current_info.I2c.main, float
 over_current_info.I2c.gas, float
 over_current_info.I2c.gps1, float
 over_current_info.I2c.gps2, float
-sas1, Sas を解決する
+解決対象：sas1, Sas
 sas1.Sas.x_angle, float
 sas1.Sas.y_angle, float
 sas1.Sas.tmp, float
@@ -85,7 +83,7 @@ sas1.Sas.y_peak, int
 sas1.Sas.sensor_gain_mode, str
 sas1.Sas.error_chk, str
 sas1.Sas.timestamp, str
-sas2, Sas を解決する
+解決対象：sas2, Sas
 sas2.Sas.x_angle, float
 sas2.Sas.y_angle, float
 sas2.Sas.tmp, float
@@ -101,13 +99,12 @@ build_time, str
 build_date, str
 terminal_log, str
 checksum, int
-
-☆Pcu
+☆メンバーの解決：Pcu
 sys_time, str
 log_size, int
 pcu_id, str
 pulse_status, int
-pop, Ads7830Pop を解決する
+解決対象：pop, Ads7830Pop
 pop.Ads7830Pop.tx_a_power_ch0, float
 pop.Ads7830Pop.tx_a_power_ch1, float
 pop.Ads7830Pop.rx_a_power_ch2, float
@@ -116,16 +113,16 @@ pop.Ads7830Pop.tx_a_volt_ch0, float
 pop.Ads7830Pop.tx_a_volt_ch1, float
 pop.Ads7830Pop.rx_a_volt_ch2, float
 pop.Ads7830Pop.rx_b_volt_ch3, float
-power, AdData を解決する
+解決対象：power, AdData
 power.AdData.pcu_5v, float
 power.AdData.other_pcu_v, float
 power.AdData.i2c_v, float
-tmp, I2cTmp を解決する
+解決対象：tmp, I2cTmp
 tmp.I2cTmp.batt_control, float
 tmp.I2cTmp.com_power, float
 tmp.I2cTmp.obc, float
 tmp.I2cTmp.etc, float
-i2c_current, I2c を解決する
+解決対象：i2c_current, I2c
 i2c_current.I2c.unit_type, str
 i2c_current.I2c.m_iru, float
 i2c_current.I2c.ce_iru, float
@@ -146,7 +143,7 @@ i2c_current.I2c.main, float
 i2c_current.I2c.gas, float
 i2c_current.I2c.gps1, float
 i2c_current.I2c.gps2, float
-i2c_voltage, I2c を解決する
+解決対象：i2c_voltage, I2c
 i2c_voltage.I2c.unit_type, str
 i2c_voltage.I2c.m_iru, float
 i2c_voltage.I2c.ce_iru, float
@@ -167,7 +164,7 @@ i2c_voltage.I2c.main, float
 i2c_voltage.I2c.gas, float
 i2c_voltage.I2c.gps1, float
 i2c_voltage.I2c.gps2, float
-over_current_info, I2c を解決する
+解決対象：over_current_info, I2c
 over_current_info.I2c.unit_type, str
 over_current_info.I2c.m_iru, float
 over_current_info.I2c.ce_iru, float
@@ -199,8 +196,7 @@ build_date, str
 heater_status, int
 terminal_log, str
 checksum, int
-
-☆Gps
+☆メンバーの解決：Gps
 systime, str
 lat_deg, int
 long_deg, int
@@ -227,7 +223,7 @@ bestpos_gps_ms, int
 dummy2, int
 bestxyz_gps_ms, int
 time_gps_ms, int
-receiverStatusCls, ReceiverStatus を解決する
+解決対象：receiverStatusCls, ReceiverStatus
 receiverStatusCls.ReceiverStatus.error_flag, NoneType
 receiverStatusCls.ReceiverStatus.temp_status, NoneType
 receiverStatusCls.ReceiverStatus.vol_supply_status, NoneType
@@ -257,10 +253,9 @@ receiverStatusCls.ReceiverStatus.digital_filtering_enabled, NoneType
 receiverStatusCls.ReceiverStatus.aux3_status_event_flag, NoneType
 receiverStatusCls.ReceiverStatus.aux2_status_event_flag, NoneType
 receiverStatusCls.ReceiverStatus.aux1_status_event_flag, NoneType
-gps_index, GpsIndex を解決する
-GpsIndex は解決不能なので深堀しない
-
-☆Obc
+解決対象：gps_index, GpsIndex
+gps_index, int
+☆メンバーの解決：Obc
 systime, str
 sap_i, int
 sap_v, int
@@ -274,8 +269,9 @@ pwm_period, float
 pwm_duty, float
 cell_balance_port_a, str
 cell_balance_port_b, str
-cell_balance_time, list を解決する
-list は解決不能なので深堀しない
+解決対象：cell_balance_time, list
+cell_balance_time.1, int
+cell_balance_time.2, int
 battchg_auto_mode, str
 battchg_on, str
 cell_balance_mode, str
@@ -296,18 +292,17 @@ rx_modem_id, str
 run_app, str
 reg_wrcsr, str
 boot_count, int
-
-☆Rw
+☆メンバーの解決：Rw
 rw_id, int
 systime, str
 omega_dot, int
 omega, int
-status, Status を解決する
+解決対象：status, Status
 status.Status.servo_status, str
 status.Status.torque_direction, str
 status.Status.motor_direction, str
 dummy, int
-error, ErrorInfo を解決する
+解決対象：error, ErrorInfo
 error.ErrorInfo.over_voltage, str
 error.ErrorInfo.sensor_error, str
 error.ErrorInfo.over_current, str
@@ -318,8 +313,7 @@ velocity, float
 current, float
 board_tmp, float
 motor_tmp, float
-
-☆Stt
+☆メンバーの解決：Stt
 stt_id, int
 systime, str
 capture_id, int
@@ -331,7 +325,7 @@ cmos_temp, float
 fpga_detected_star_cnt, int
 cpu_detected_star_cnt, int
 detected_star_cnt, int
-star_info, StarInfo を解決する
+解決対象：star_info, StarInfo
 star_info.StarInfo.star_info_id, int
 star_info.StarInfo.hipparcos_id, int
 star_info.StarInfo.luminance, int
@@ -339,4 +333,3 @@ star_info.StarInfo.azimuth, int
 star_info.StarInfo.elevation, int
 attitude_error, float
 focal_length, float
-クラスinクラスの解決 ここまで＝＝
