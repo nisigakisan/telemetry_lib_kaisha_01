@@ -1,0 +1,6 @@
+core.rw, ErrorInfo, over_voltage, str, 1
+core.rw, ErrorInfo, sensor_error, str, 1
+core.rw, ErrorInfo, over_current, str, 1
+core.rw, ErrorInfo, over_velocity, str, 1
+core.rw, ErrorInfo, storage_error, str, 1
+core.rw, ErrorInfo, over_tmp, str, 1

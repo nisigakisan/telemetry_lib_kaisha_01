@@ -1,0 +1,8 @@
+core.pcu, Ads7830Pop, tx_a_power_ch0, float, 1
+core.pcu, Ads7830Pop, tx_a_power_ch1, float, 1
+core.pcu, Ads7830Pop, rx_a_power_ch2, float, 1
+core.pcu, Ads7830Pop, rx_b_power_ch3, float, 1
+core.pcu, Ads7830Pop, tx_a_volt_ch0, float, 1
+core.pcu, Ads7830Pop, tx_a_volt_ch1, float, 1
+core.pcu, Ads7830Pop, rx_a_volt_ch2, float, 1
+core.pcu, Ads7830Pop, rx_b_volt_ch3, float, 1

@@ -1,0 +1,17 @@
+core.gyro, MIru, systime, str, 10
+core.gyro, MIru, stx, int, 10
+core.gyro, MIru, frame_count, int, 10
+core.gyro, MIru, status, int, 10
+core.gyro, MIru, angular_velocity_a, float, 10
+core.gyro, MIru, angular_velocity_b, float, 10
+core.gyro, MIru, angular_velocity_c, float, 10
+core.gyro, MIru, angular_increment_a, float, 10
+core.gyro, MIru, angular_increment_b, float, 10
+core.gyro, MIru, angular_increment_c, float, 10
+core.gyro, MIru, gyro_temp_a, float, 10
+core.gyro, MIru, gyro_temp_b, float, 10
+core.gyro, MIru, gyro_temp_c, float, 10
+core.gyro, MIru, horizontal_parity, int, 10
+core.gyro, MIru, etb, int, 10
+core.gyro, MIru, is_active, int, 10
+core.gyro, MIru, gyro_driver_status, int, 10

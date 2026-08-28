@@ -24,7 +24,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 from core import djm
 from core import pcu
-from core import gas
+from core import gps
 from core import gyro
 from core import attitude_control
 from core import obc
@@ -36,7 +36,7 @@ from core import mission_controller
 list_module = [
     djm,
     pcu,
-    gas,
+    gps,
     gyro,
     attitude_control,
     obc,
@@ -95,9 +95,9 @@ def create_instance_and_inspect():
     print_inst(inst)
     inst = pcu.Pcu()
     print_inst(inst)
-    inst = gas.Gps()
+    inst = gps.Gps()
     print_inst(inst)
-    inst = gas.ReceiverStatus()
+    inst = gps.ReceiverStatus()
     print_inst(inst)
     inst = gyro.CeIru()
     print_inst(inst)

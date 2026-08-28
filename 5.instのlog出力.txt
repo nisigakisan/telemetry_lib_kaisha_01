@@ -198,7 +198,7 @@ version 0x00
 ターミナルログ 
 チェックサム 0
 
-☆instのモジュール名・クラス名：core.gas.Gps
+☆instのモジュール名・クラス名：core.gps.Gps
 GPS SIZE 136[byte]
 systime 
 lat_deg 0
@@ -256,7 +256,7 @@ Auxiliary2 status event flag : None
 Auxiliary1 status event flag : None
 gps_index -1
 
-☆instのモジュール名・クラス名：core.gas.ReceiverStatus
+☆instのモジュール名・クラス名：core.gps.ReceiverStatus
 Error flag : None
 Tempareture status : None
 Voltage supply status : None

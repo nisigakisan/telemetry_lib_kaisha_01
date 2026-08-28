@@ -1,0 +1,3 @@
+core.pcu, AdData, pcu_5v, float, 1
+core.pcu, AdData, other_pcu_v, float, 1
+core.pcu, AdData, i2c_v, float, 1

@@ -6,9 +6,9 @@ core.pcu, Ads7830Pop
 core.pcu, I2c
 core.pcu, I2cTmp
 core.pcu, Pcu
-core.gas, Gps
-core.gas, GpsIndex
-core.gas, ReceiverStatus
+core.gps, Gps
+core.gps, GpsIndex
+core.gps, ReceiverStatus
 core.gyro, CeIru
 core.gyro, MIru
 core.attitude_control, AttitudeControl
