@@ -5,7 +5,7 @@ CeIru
 Djm
 ErrorInfo
 Gps
-GpsIndex
+I2c
 I2c
 I2cTmp
 MIru

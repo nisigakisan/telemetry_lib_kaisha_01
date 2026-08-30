@@ -1,5 +1,0 @@
-core.stt, StarInfo, star_info_id, int, 1
-core.stt, StarInfo, hipparcos_id, int, 1
-core.stt, StarInfo, luminance, int, 1
-core.stt, StarInfo, azimuth, int, 1
-core.stt, StarInfo, elevation, int, 1

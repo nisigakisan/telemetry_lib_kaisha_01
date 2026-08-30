@@ -1,6 +1,0 @@
-Djm
-Gps
-Obc
-Pcu
-Rw
-Stt

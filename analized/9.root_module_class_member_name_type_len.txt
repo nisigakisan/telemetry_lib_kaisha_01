@@ -1,0 +1,9 @@
+marvi_hk_data, MarviHkData, obc, Obc, 1, obc.Obc
+marvi_hk_data, MarviHkData, djm, Djm, 5, djm.Djm
+marvi_hk_data, MarviHkData, pcu, Pcu, 1, pcu.Pcu
+marvi_hk_data, MarviHkData, rw, Rw, 4, rw.Rw
+marvi_hk_data, MarviHkData, ce_iru, CeIru, 1, gyro.CeIru
+marvi_hk_data, MarviHkData, stt, Stt, 4, stt.Stt
+marvi_hk_data, MarviHkData, gps, Gps, 1, gps.Gps
+marvi_hk_data, MarviHkData, att, AttitudeControl, 1, attitude_control.AttitudeControl
+marvi_hk_data, MarviHkData, mission, MissionController, 1, mission_controller.MissionController

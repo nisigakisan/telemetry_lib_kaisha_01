@@ -1,4 +1,0 @@
-core.pcu, I2cTmp, batt_control, float, 1
-core.pcu, I2cTmp, com_power, float, 1
-core.pcu, I2cTmp, obc, float, 1
-core.pcu, I2cTmp, etc, float, 1

@@ -1,9 +1,0 @@
-core.djm, Sas, x_angle, float, 1
-core.djm, Sas, y_angle, float, 1
-core.djm, Sas, tmp, float, 1
-core.djm, Sas, gain, int, 1
-core.djm, Sas, x_peak, int, 1
-core.djm, Sas, y_peak, int, 1
-core.djm, Sas, sensor_gain_mode, str, 1
-core.djm, Sas, error_chk, str, 1
-core.djm, Sas, timestamp, str, 1

@@ -1,4 +1,0 @@
-core.mission_controller, MissionController, systime, str, 1
-core.mission_controller, MissionController, mission_status, str, 1
-core.mission_controller, MissionController, hscm_status, str, 1
-core.mission_controller, MissionController, wcam_status, str, 1

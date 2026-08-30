@@ -1,9 +1,0 @@
-core.marvi_hk_data, MarviHkData, obc, Obc, 1
-core.marvi_hk_data, MarviHkData, djm, Djm, 5
-core.marvi_hk_data, MarviHkData, pcu, Pcu, 1
-core.marvi_hk_data, MarviHkData, rw, Rw, 4
-core.marvi_hk_data, MarviHkData, ce_iru, CeIru, 1
-core.marvi_hk_data, MarviHkData, stt, Stt, 4
-core.marvi_hk_data, MarviHkData, gps, Gps, 1
-core.marvi_hk_data, MarviHkData, att, AttitudeControl, 1
-core.marvi_hk_data, MarviHkData, mission, MissionController, 1

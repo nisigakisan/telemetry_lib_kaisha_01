@@ -1,3 +1,0 @@
-core.rw, Status, servo_status, str, 1
-core.rw, Status, torque_direction, str, 1
-core.rw, Status, motor_direction, str, 1
