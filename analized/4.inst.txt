@@ -562,16 +562,6 @@ hipparcos_id 0
 luminance 0
 azimuth 0
 elevation 0
-StarInfo7
-hipparcos_id 0
-luminance 0
-azimuth 0
-elevation 0
-StarInfo8
-hipparcos_id 0
-luminance 0
-azimuth 0
-elevation 0
 attitude_error 0.000000
 focal_length 0.000000
 

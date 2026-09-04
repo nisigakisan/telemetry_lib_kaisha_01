@@ -10,6 +10,7 @@ marvi_hk_data, MarviHkData, rw.2, Rw, 1, rw.Rw
 marvi_hk_data, MarviHkData, rw.3, Rw, 1, rw.Rw
 marvi_hk_data, MarviHkData, rw.4, Rw, 1, rw.Rw
 marvi_hk_data, MarviHkData, ce_iru, CeIru, 1, gyro.CeIru
+marvi_hk_data, MarviHkData, m_iru, MIru, 1, gyro.MIru
 marvi_hk_data, MarviHkData, stt.1, Stt, 1, stt.Stt
 marvi_hk_data, MarviHkData, stt.2, Stt, 1, stt.Stt
 marvi_hk_data, MarviHkData, stt.3, Stt, 1, stt.Stt

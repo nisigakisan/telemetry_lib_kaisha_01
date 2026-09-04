@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from core.djm import Djm
 # from core.gas import Gas
+from core.gyro import MIru
 from core.gyro import CeIru
 from core.gps import Gps
 from core.mission_controller import MissionController
@@ -31,7 +32,7 @@ class MarviHkData(object):
         # + MissionObc.HK_SIZE
         + Djm.HK_SIZE * DJM_NUM
         + CeIru.HK_SIZE
-        # + Miru.HK_SIZE
+        + MIru.HK_SIZE
         + Rw.HK_SIZE * RW_NUM
         + Stt.HK_SIZE * STT_NUM
         + Gps.HK_SIZE
@@ -53,7 +54,7 @@ class MarviHkData(object):
         # self.mission_obc = MissionObc()
         self.rw = [Rw(rw_id) for rw_id in range(self.RW_NUM)]
         self.ce_iru = CeIru()
-        # self.m_iru = Miru()
+        self.m_iru = MIru()
         self.stt = [Stt(stt_id) for stt_id in range(self.STT_NUM)]
         self.gps = Gps()
         # self.gas = Gas()

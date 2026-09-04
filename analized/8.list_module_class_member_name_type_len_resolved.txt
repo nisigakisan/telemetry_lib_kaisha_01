@@ -1108,16 +1108,6 @@
  'stt, StarInfo, star_info.6.luminance, int, 1',
  'stt, StarInfo, star_info.6.azimuth, int, 1',
  'stt, StarInfo, star_info.6.elevation, int, 1',
- 'stt, StarInfo, star_info.7.star_info_id, int, 1',
- 'stt, StarInfo, star_info.7.hipparcos_id, int, 1',
- 'stt, StarInfo, star_info.7.luminance, int, 1',
- 'stt, StarInfo, star_info.7.azimuth, int, 1',
- 'stt, StarInfo, star_info.7.elevation, int, 1',
- 'stt, StarInfo, star_info.8.star_info_id, int, 1',
- 'stt, StarInfo, star_info.8.hipparcos_id, int, 1',
- 'stt, StarInfo, star_info.8.luminance, int, 1',
- 'stt, StarInfo, star_info.8.azimuth, int, 1',
- 'stt, StarInfo, star_info.8.elevation, int, 1',
  'stt, Stt, attitude_error, float, 1',
  'stt, Stt, focal_length, float, 1']
 

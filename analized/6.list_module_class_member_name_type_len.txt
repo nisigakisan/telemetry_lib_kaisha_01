@@ -291,6 +291,6 @@
  'stt, Stt, fpga_detected_star_cnt, int, 1',
  'stt, Stt, cpu_detected_star_cnt, int, 1',
  'stt, Stt, detected_star_cnt, int, 1',
- 'stt, Stt, star_info, StarInfo, 8',
+ 'stt, Stt, star_info, StarInfo, 6',
  'stt, Stt, attitude_error, float, 1',
  'stt, Stt, focal_length, float, 1']

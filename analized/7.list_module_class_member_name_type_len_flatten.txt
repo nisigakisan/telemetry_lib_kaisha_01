@@ -857,8 +857,6 @@
  'stt, Stt, star_info.4, StarInfo, 1',
  'stt, Stt, star_info.5, StarInfo, 1',
  'stt, Stt, star_info.6, StarInfo, 1',
- 'stt, Stt, star_info.7, StarInfo, 1',
- 'stt, Stt, star_info.8, StarInfo, 1',
  'stt, Stt, attitude_error, float, 1',
  'stt, Stt, focal_length, float, 1']
 

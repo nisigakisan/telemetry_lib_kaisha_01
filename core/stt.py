@@ -37,7 +37,7 @@ class Stt(object):
         self.fpga_detected_star_cnt = 0
         self.cpu_detected_star_cnt = 0
         self.detected_star_cnt = 0
-        self.star_info = [StarInfo(info_id) for info_id in range(8)]
+        self.star_info = [StarInfo(info_id) for info_id in range(6)]
         self.attitude_error = 0.0
         self.focal_length = 0.0
 
@@ -52,7 +52,7 @@ class Stt(object):
         log += ["detected_star_cnt (FPGA) %d" % self.fpga_detected_star_cnt]
         log += ["detected_star_cnt (CPU) %d" % self.cpu_detected_star_cnt]
         log += ["detected_star_cnt %d" % self.detected_star_cnt]
-        for info_id in range(8):
+        for info_id in range(6):
             log += [self.star_info[info_id].__str__()]
         log += ["attitude_error %f" % self.attitude_error]
         log += ["focal_length %f" % self.focal_length]
